@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Esta es la ruta que cargará tu mapa
+// Esta es la ruta para el MASTER
 Route::get('/master', function () {
     return view('visor');
 });
