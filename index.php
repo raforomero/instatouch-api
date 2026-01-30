@@ -4,6 +4,6 @@ header("Content-Type: application/json");
 
 echo json_encode([
     "status" => "success", 
-    "msg" => "SERVIDOR NUEVO CONECTADO"
+    "msg" => "SERVIDOR DE RASTREO ACTIVO"
 ]);
 ?>
